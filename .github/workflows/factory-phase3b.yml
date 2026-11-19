@@ -1,0 +1,9 @@
+name: factory-phase3b
+on: [push, workflow_dispatch]
+permissions: {}
+jobs:
+  fixture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    steps:
+      - run: echo 'Synthetic recording fixture'
