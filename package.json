@@ -1,0 +1,9 @@
+{
+  "name": "factory-dependabot-alert-fixture",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Manifest for defensive alert testing only; do not install",
+  "dependencies": {
+    "@actions/core": "1.1.9"
+  }
+}
